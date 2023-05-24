@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+// import React, {useEffect, useState} from React
+import { NavLink, Routes, Route, Router } from "react-router-dom"
+import NavBar from './NavBar';
+import Teams from './Teams';
+import Players from './Players';
+import Homepage from './Homepage';
+import Games from './Games';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+        <NavBar />
+        
+        <Routes>
+        <Route path="/" element={<Homepage />} />
+          <Route path="/Players" element={<Players />} />
+          <Route path="/Teams" element={<Teams />} />
+          <Route path="/Games" element={<Games />} />
+        </Routes>
+      
+
+
     </div>
   );
 }
