@@ -1,5 +1,12 @@
 
-This is a class project building an application using React. - Jesse Bibbs 
+This is a class project building an application using React.
+
+I created an NBA app using an external API that pulls data regarding players, teams and games.
+
+The User I had in mind while building this is a person that doesn't know a lot about the NBA and wants to learn the basic info about the players and the teams. 
+
+
+- Jesse Bibbs 
 
 
 
