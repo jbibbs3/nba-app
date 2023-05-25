@@ -1,3 +1,8 @@
+
+This is a class project building an application using React. - Jesse Bibbs 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
